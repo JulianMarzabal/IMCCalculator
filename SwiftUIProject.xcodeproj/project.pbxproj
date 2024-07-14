@@ -11,6 +11,13 @@
 		1E3E6F682C3AC7AA000FC339 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E6F672C3AC7AA000FC339 /* ContentView.swift */; };
 		1E3E6F6A2C3AC7AB000FC339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3E6F692C3AC7AB000FC339 /* Assets.xcassets */; };
 		1E3E6F6D2C3AC7AB000FC339 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3E6F6C2C3AC7AB000FC339 /* Preview Assets.xcassets */; };
+		1E88E41C2C441A700032B973 /* IMCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88E41B2C441A700032B973 /* IMCView.swift */; };
+		1E88E41F2C44241E0032B973 /* InformationTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88E41E2C44241E0032B973 /* InformationTextView.swift */; };
+		1E88E4212C4425EB0032B973 /* ToggleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88E4202C4425EB0032B973 /* ToggleButtonView.swift */; };
+		1E88E4232C442C990032B973 /* HeightCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88E4222C442C990032B973 /* HeightCalculatorView.swift */; };
+		1E88E4252C442D660032B973 /* TitleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88E4242C442D660032B973 /* TitleTextView.swift */; };
+		1E88E4272C4479330032B973 /* CounterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88E4262C4479330032B973 /* CounterButtonView.swift */; };
+		1E88E4292C44839D0032B973 /* IMCCalculateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88E4282C44839D0032B973 /* IMCCalculateButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		1E3E6F672C3AC7AA000FC339 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E3E6F692C3AC7AB000FC339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E3E6F6C2C3AC7AB000FC339 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E88E41B2C441A700032B973 /* IMCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCView.swift; sourceTree = "<group>"; };
+		1E88E41E2C44241E0032B973 /* InformationTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTextView.swift; sourceTree = "<group>"; };
+		1E88E4202C4425EB0032B973 /* ToggleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButtonView.swift; sourceTree = "<group>"; };
+		1E88E4222C442C990032B973 /* HeightCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightCalculatorView.swift; sourceTree = "<group>"; };
+		1E88E4242C442D660032B973 /* TitleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextView.swift; sourceTree = "<group>"; };
+		1E88E4262C4479330032B973 /* CounterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterButtonView.swift; sourceTree = "<group>"; };
+		1E88E4282C44839D0032B973 /* IMCCalculateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCCalculateButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +65,12 @@
 		1E3E6F642C3AC7AA000FC339 /* SwiftUIProject */ = {
 			isa = PBXGroup;
 			children = (
+				1E88E41D2C4423FF0032B973 /* Components */,
 				1E3E6F652C3AC7AA000FC339 /* SwiftUIProjectApp.swift */,
 				1E3E6F672C3AC7AA000FC339 /* ContentView.swift */,
 				1E3E6F692C3AC7AB000FC339 /* Assets.xcassets */,
 				1E3E6F6B2C3AC7AB000FC339 /* Preview Content */,
+				1E88E41B2C441A700032B973 /* IMCView.swift */,
 			);
 			path = SwiftUIProject;
 			sourceTree = "<group>";
@@ -65,6 +81,19 @@
 				1E3E6F6C2C3AC7AB000FC339 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E88E41D2C4423FF0032B973 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1E88E41E2C44241E0032B973 /* InformationTextView.swift */,
+				1E88E4202C4425EB0032B973 /* ToggleButtonView.swift */,
+				1E88E4222C442C990032B973 /* HeightCalculatorView.swift */,
+				1E88E4242C442D660032B973 /* TitleTextView.swift */,
+				1E88E4262C4479330032B973 /* CounterButtonView.swift */,
+				1E88E4282C44839D0032B973 /* IMCCalculateButtonView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +167,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E3E6F682C3AC7AA000FC339 /* ContentView.swift in Sources */,
+				1E88E4292C44839D0032B973 /* IMCCalculateButtonView.swift in Sources */,
+				1E88E4272C4479330032B973 /* CounterButtonView.swift in Sources */,
+				1E88E4212C4425EB0032B973 /* ToggleButtonView.swift in Sources */,
+				1E88E41C2C441A700032B973 /* IMCView.swift in Sources */,
+				1E88E41F2C44241E0032B973 /* InformationTextView.swift in Sources */,
+				1E88E4252C442D660032B973 /* TitleTextView.swift in Sources */,
 				1E3E6F662C3AC7AA000FC339 /* SwiftUIProjectApp.swift in Sources */,
+				1E88E4232C442C990032B973 /* HeightCalculatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
