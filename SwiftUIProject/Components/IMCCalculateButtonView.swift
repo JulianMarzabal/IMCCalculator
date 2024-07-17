@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct IMCCalculateButtonView: View {
+    let userWeight:Double
+    let userHeight:Double
     var body: some View {
         NavigationStack {
-            NavigationLink(destination: {}) {
+            NavigationLink(destination: {IMCResultView(userWeight: userWeight, userHeight: userHeight)}) {
                 Text("Calcular").font(.title)
                     .bold()
                     .foregroundStyle(.purple)
@@ -22,5 +24,5 @@ struct IMCCalculateButtonView: View {
 }
 
 #Preview {
-    IMCCalculateButtonView()
+    IMCCalculateButtonView(userWeight: 80, userHeight: 190)
 }

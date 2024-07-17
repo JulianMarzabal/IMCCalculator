@@ -33,7 +33,7 @@ struct IMCView: View {
                 
                 .background(.backgroundApp)
             
-            IMCCalculateButtonView()
+            IMCCalculateButtonView(userWeight: Double(weight), userHeight: selectedHeight)
 
         }.frame(maxWidth: .infinity,maxHeight: .infinity).background(.backgroundApp)
             .navigationBarBackButtonHidden()
