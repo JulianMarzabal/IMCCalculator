@@ -16,7 +16,7 @@ struct InformationTextView: View {
                 .bold()
                 .foregroundColor(.white)
         }.frame(maxWidth: .infinity,maxHeight: .infinity)
-            .background(.backgroundComponent)
+            //.background(.backgroundComponent)
     }
 }
 

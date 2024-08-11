@@ -16,7 +16,7 @@ struct CounterButtonView: View {
             InformationTextView(text: String(age))
             HStack {
                 Button(action: {
-                    if age > 0 && age < 100 {
+                    if age > 0 && age <= 100 {
                         age -= 1
                     }
                    

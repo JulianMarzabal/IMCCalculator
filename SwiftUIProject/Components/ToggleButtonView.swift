@@ -29,6 +29,8 @@ struct ToggleButtonView:View {
                         .frame(height: 100)
                         .foregroundColor(.white)
                     InformationTextView(text: text)
+                        
+                        
                 }.frame(maxWidth: .infinity,maxHeight: .infinity).background(color)
                 
             }
